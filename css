@@ -1,0 +1,29 @@
+body {
+    background: -webkit-linear-gradient(0deg, #ff0000, #00ff00, #1100ff);
+    animation: animate 5s linear infinite;
+  }
+  @keyframes  animate {
+    0% {
+      background: red;
+    }
+    14% {
+      background: orange;
+    }
+    28% {
+      background: yellow;
+    }
+    42% {
+      background: green;
+    }
+    56% {
+      background: aqua;
+    }
+    70% {
+      background: blue;
+    }
+    84% {
+      background: purple;
+    }
+    100% {
+      background: red;
+    }
